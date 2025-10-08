@@ -1,11 +1,8 @@
-package ie.atu;
+package ie.atu.wwek4;
 
 import java.util.Scanner;
 
-public class
-
-
-public class studentApp
+public class StudentApp
 {
   public static void main( String[] args )
   {
@@ -27,10 +24,16 @@ public class studentApp
            System.out.println("Enter student ID");
            String studentId = sc.nextLine();
 
-
-           // creating a student that has no details
-
            Student student1 = new Student();
+
+           student1.setName(name);
+           student1.setEmail(email);
+           student1.setStudentId(studentId);
+
+
+           // creating a default student that has no details
+
+
        }
   }
 }
