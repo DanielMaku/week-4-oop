@@ -12,7 +12,7 @@ public class StudentApp
        System.out.println("Enter number of students");
        count = sc.nextInt();
 
-       while(count <=3) {
+       while(count <=) {
 
            // asking for details
            System.out.println("Enter name");
